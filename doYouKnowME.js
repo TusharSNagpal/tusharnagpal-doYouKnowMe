@@ -41,8 +41,12 @@ for(var i=0; i<arr.length; i=i+2)
 }
 
 console.log(score + ' out of ' +5);
-if(score<=2)
-console.log('You dont know much about him.');
 
-else
-console.log('Yeah! You know him.');
+if(score<=2)
+{
+    console.log('You dont know much about him.');
+}
+
+else{
+    console.log('Yeah! You know him.');
+}
